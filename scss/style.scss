@@ -1,0 +1,17 @@
+$enable-rounded:false;
+ $component-active-bg:black;
+ $carousel-control-color:black;
+ $carousel-indicator-active-bg:black;
+ $input-focus-box-shadow:none;
+ $offcanvas-horizontal-width:300px;
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.del-btn{
+    transform: scale(0);
+    transition: 0.5s;
+}
+tr:hover .del-btn{
+    transform: scale(1);
+};
+.bg-transparent-50{
+    background-color: rgba(0,0,0,0.5)}
